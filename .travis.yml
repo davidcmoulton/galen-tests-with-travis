@@ -1,3 +1,5 @@
 language: java
-install: ./galen-tests-with-travis/install-dependencies.sh
-script: ./galen-tests-with-travis/run-tests.sh
+install:
+  - ./install-dependencies.sh
+script:
+  - ./run-tests.sh
