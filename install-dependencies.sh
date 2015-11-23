@@ -1,7 +1,7 @@
 #/bin/sh
 $dir=tests/galen/
 if [[ ! -e $dir ]]; then
-    mkdir $dir
+    mkdir -p $dir
 elif [[ ! -d $dir ]]; then
     echo "$dir already exists but is not a directory" 1>&2
     exit 1
