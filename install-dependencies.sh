@@ -1,5 +1,5 @@
 #/bin/sh
-$dir = tests/galen/
+$dir=tests/galen/
 if [[ ! -e $dir ]]; then
     mkdir $dir
 elif [[ ! -d $dir ]]; then
