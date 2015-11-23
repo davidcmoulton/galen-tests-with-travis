@@ -5,5 +5,6 @@ wget https://github.com/galenframework/galen/releases/download/galen-2.1.3/galen
 ls -la
 unzip galen-bin-2.1.3.zip
 ls -la
-sudo ./galen-bin-2.1.3/install.sh
+cd ./galen-bin-2.1.3/
+sudo ./install.sh
 #ln -s ./galen-2.1.3/galen ./galen
