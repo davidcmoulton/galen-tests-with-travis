@@ -7,7 +7,6 @@ elif [[ ! -d $dir ]]; then
     exit 1
 fi
 cd $dir;
-
 curl https://github.com/galenframework/galen/releases/download/galen-2.1.3/galen-bin-2.1.3.zip -o galen-bin-2.1.3.zip
 unzip galen-bin-2.1.3.zip
 ln -s galen-2.1.3/galen galen
