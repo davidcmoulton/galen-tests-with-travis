@@ -1,4 +1,4 @@
-language: java
+language: php
 sudo: required
 install:
 #  - mkdir -p tests/galen
