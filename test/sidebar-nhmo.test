@@ -18,4 +18,4 @@
 @@ groups article, sidebar
 NHMO identity in article sidebar at ${viewport} width viewport in ${browser}
   selenium ${browser} ${base_url}/content/4/e06956/ ${size}
-    check ../spec/sidebar-nhmo.spec --include ${tags}
+    check ../spec/sidebar/sidebar-nhmo.gspec --include ${tags}
