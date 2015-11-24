@@ -21,4 +21,4 @@ install:
   
 script:
   #- ./run-tests.sh
-  - galen test test/*.test
+  - galen test ./test/*.test
