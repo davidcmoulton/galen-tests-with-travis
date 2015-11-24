@@ -2,7 +2,7 @@ language: java
 sudo: required
 install:
   - mkdir -p tests/galen
-  - cd tests/galen;
+  - cd tests/galen
   - wget https://github.com/galenframework/galen/releases/download/galen-2.1.3/galen-bin-2.1.3.zip
   - unzip galen-bin-2.1.3.zip
   - cd ./galen-bin-2.1.3/
@@ -10,7 +10,7 @@ install:
   - cd ..
   # Get Selenium
   - if [[ ! -e "$HOME/custom/selenium-server-standalone-2.44.0.jar" ]]; then wget --directory-prefix="$HOME/custom" http://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar; fi;
-  - java -jar $HOME/custom/selenium-server-standalone-2.44.0.jar -p 4444 > /dev/null 2>&1 &
+#  - java -jar $HOME/custom/selenium-server-standalone-2.44.0.jar -p 4444 > /dev/null 2>&1 &
 
   # Get phantomjs (Sticking with 1.9 series for now: there is no stable 2.x
   # series binary for Linux atm)
@@ -18,7 +18,7 @@ install:
   - tar xjf phantomjs-1.9.2-linux-x86_64.tar.bz2
   - which phantomjs
   - phantomjs -v
-  
+  - pwd
 script:
   #- ./run-tests.sh
-  - galen test ./test/*.test
+  - galen test ./test/sidebar-nhmo.test
