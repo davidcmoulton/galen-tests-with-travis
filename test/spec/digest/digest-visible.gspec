@@ -1,5 +1,6 @@
 @objects
-    digest       id           digest         
+  digest  id  digest         
 
-digest:
-    visible
+= Main text =
+  digest:
+    absent
