@@ -22,4 +22,4 @@ install:
 script:
   #- ./run-tests.sh
   - cd test
-  - galen test **/*.test
+  - galen test digest.test
