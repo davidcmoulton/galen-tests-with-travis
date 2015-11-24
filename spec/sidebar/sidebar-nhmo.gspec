@@ -1,8 +1,7 @@
-============================================================
-sidebarWrapper    css         .sidebar-wrapper
-sidebarNhmo       css         .article-belongs-to--nhmo
-sidebarNhmoTexts  css         .article-belongs-to--nhmo div
-============================================================
+@objects
+  sidebarWrapper    css         .sidebar-wrapper
+  sidebarNhmo       css         .article-belongs-to--nhmo
+  sidebarNhmoTexts  css         .article-belongs-to--nhmo div
 
 @ *
 -------------------------------------------------------------

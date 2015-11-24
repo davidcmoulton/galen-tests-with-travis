@@ -13,7 +13,7 @@ install:
 #  - java -jar $HOME/custom/selenium-server-standalone-2.44.0.jar -p 4444 > /dev/null 2>&1 &
 
   # Get phantomjs (Sticking with 1.9 series for now: there is no stable 2.x
-  # series binary for Linux atm)
+  # series binary for Linux atm. DM 23/11/2015)
   - wget https://phantomjs.googlecode.com/files/phantomjs-1.9.2-linux-x86_64.tar.bz2
   - tar xjf phantomjs-1.9.2-linux-x86_64.tar.bz2
   - which phantomjs
