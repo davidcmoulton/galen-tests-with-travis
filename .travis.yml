@@ -14,7 +14,7 @@ install:
 
   # Get phantomjs
   - wget https://phantomjs.googlecode.com/files/phantomjs-1.9.2-linux-x86_64.tar.bz2
-  - unzip phantomjs-1.9.2-linux-x86_64.tar.bz2
+  - tar -zxvf phantomjs-1.9.2-linux-x86_64.tar.bz2
   - ln -s ./phantomjs-1.9.2-linux-x86_64.tar.bz2 /usr/local/bin/phantomjs
 
 script:
