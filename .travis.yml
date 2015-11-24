@@ -21,6 +21,7 @@ install:
   - pwd
 script:
   #- ./run-tests.sh
-  - cd test
+  - ls -alh
+  - cd ./test
   - pwd
   - galen test digest.test
