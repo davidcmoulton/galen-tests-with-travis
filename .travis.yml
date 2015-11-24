@@ -20,4 +20,5 @@ install:
   - phantomjs -v
   
 script:
-  - ./run-tests.sh
+  #- ./run-tests.sh
+  - galen test test/*.test
