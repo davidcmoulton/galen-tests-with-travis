@@ -1,2 +1,3 @@
-#/bin/sh
-galen test test/*.test
+#!/bin/sh
+cd test
+galen test *.test

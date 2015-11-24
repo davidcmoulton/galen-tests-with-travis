@@ -5,7 +5,6 @@
   size_medium    768x800
   size_wide      1250x750
   
-  spec_path      spec
 
 @@ parameterized
     | viewport   | tags      | size            |
@@ -20,5 +19,5 @@
 @@ groups article, digest
 Digest at ${viewport} width viewport in ${browser}
   selenium ${browser} ${base_url}/content/4/e06956/ ${size}
-    check ${spec_path}/digest/digest-none.gspec --include ${tags}
-    check ${spec_path}/digest/digest-visible.gspec --include ${tags}
+    check spec/digest/digest-none.gspec --include ${tags}
+    check spec/digest/digest-visible.gspec --include ${tags}
