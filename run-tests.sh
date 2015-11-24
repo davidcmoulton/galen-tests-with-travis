@@ -1,2 +1,2 @@
 #/bin/sh
-./galen test test/*.test
+galen test test/*.test
