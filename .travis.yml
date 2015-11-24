@@ -22,4 +22,5 @@ install:
 script:
   #- ./run-tests.sh
   - cd test
+  - pwd
   - galen test digest.test
