@@ -1,0 +1,5 @@
+@objects
+    digest       id           digest         
+
+digest:
+  absent
