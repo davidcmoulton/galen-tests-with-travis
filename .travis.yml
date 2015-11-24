@@ -21,4 +21,5 @@ install:
   - pwd
 script:
   #- ./run-tests.sh
-  - galen test ./test/sidebar-nhmo.test
+  - cd test
+  - galen test sidebar-nhmo.test
