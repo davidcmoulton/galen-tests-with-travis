@@ -4,6 +4,8 @@
   size_narrow    320x533
   size_medium    768x800
   size_wide      1250x750
+  
+  spec_path      ../spec/
 
 @@ parameterized
     | viewport   | tags      | size            |
@@ -18,4 +20,4 @@
 @@ groups article, sidebar
 NHMO identity in article sidebar at ${viewport} width viewport in ${browser}
   selenium ${browser} ${base_url}/content/4/e06956/ ${size}
-    check ../spec/sidebar/sidebar-nhmo.gspec --include ${tags}
+    check ${spec_path}/sidebar/sidebar-nhmo.gspec --include ${tags}
